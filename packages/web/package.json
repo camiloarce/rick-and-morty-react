@@ -1,0 +1,44 @@
+{
+  "name": "rick-and-morty-react-web",
+  "author": "Camilo Arce (https://github.com/camiloarce)",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint": "../../node_modules/.bin/standard --verbose | ../../node_modules/.bin/snazzy",
+    "lint:fix": "../../node_modules/.bin/standard --fix --verbose | ../../node_modules/.bin/snazzy"
+  },
+  "dependencies": {
+    "apisauce": "1.0.2",
+    "node-sass": "4.11.0",
+    "react": "16.8.4",
+    "react-dom": "16.8.4",
+    "react-infinite-scroll-component": "^4.5.1",
+    "react-redux": "6.0.1",
+    "react-router-dom": "4.3.1",
+    "react-scripts": "2.1.5",
+    "redux": "4.0.1",
+    "redux-thunk": "2.3.0",
+    "reduxsauce": "1.0.1",
+    "seamless-immutable": "7.1.4"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "standard": {
+    "parser": "babel-eslint",
+    "globals": [
+      "__ENV__",
+      "FormData",
+      "fetch",
+      "Headers",
+      "it"
+    ]
+  }
+}

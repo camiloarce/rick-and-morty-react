@@ -1,0 +1,37 @@
+.sectionList {
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  min-height: calc(60vh - 5rem);
+  padding: 1.875rem;
+  margin-bottom: 20px;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1260px;
+  min-height: 40vh;
+  justify-content: center;
+}
+
+.flex-item {
+  height: 100%;
+  width: 250px;
+  padding: 20px;
+  overflow: hidden;
+}
+
+.loader {
+  clear: both;
+  color: white;
+}
+
+.fabContainer {
+  position: fixed;
+	bottom: 30px;
+  right: 60px;
+  z-index: 9999;
+}

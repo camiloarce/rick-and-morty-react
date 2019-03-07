@@ -1,0 +1,49 @@
+{
+  "name": "rick-and-morty-react-storybook",
+  "author": "Camilo Arce (https://github.com/camiloarce)",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "storybook": "start-storybook -p 9009 -s public",
+    "build-storybook": "build-storybook -s public",
+    "lint": "../../node_modules/.bin/standard --verbose | ../../node_modules/.bin/snazzy",
+    "lint:fix": "../../node_modules/.bin/standard --fix --verbose | ../../node_modules/.bin/snazzy"
+  },
+  "dependencies": {
+    "react": "16.8.3",
+    "react-dom": "16.8.3",
+    "react-scripts": "2.1.5",
+    "rick-and-morty-react-ui-core": "file:../ui-core"
+  },
+  "devDependencies": {
+    "@babel/core": "7.3.4",
+    "@babel/polyfill": "7.2.5",
+    "@babel/preset-env": "7.3.4",
+    "@babel/preset-react": "7.0.0",
+    "@storybook/addon-actions": "4.1.13",
+    "@storybook/addon-links": "4.1.13",
+    "@storybook/addons": "4.1.13",
+    "@storybook/react": "4.1.13",
+    "babel-loader": "8.0.5"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "standard": {
+    "parser": "babel-eslint",
+    "globals": [
+      "__ENV__",
+      "FormData",
+      "fetch",
+      "Headers",
+      "it"
+    ]
+  }
+}
